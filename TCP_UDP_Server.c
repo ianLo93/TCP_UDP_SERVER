@@ -1,5 +1,5 @@
 /*
-The program builds an server for comunication between clients
+The program builds a chat server for communication between clients
 Support functionalities of LOGIN, LOGOUT, WHO, SEND, BROADCAST, SHARE on UDP or TCP
 Support all regular files transmission
 */
