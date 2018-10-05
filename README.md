@@ -4,27 +4,27 @@ The program constructs a chat server for multiple clients to share informations,
 
 The server supports the following functionalities:
 
-- LOGIN
+- **LOGIN**
 
 Add user to TCP or UDP client lists, users have to login to accomplish other actions. Program will identify users by username and IP address, same usernames cannont be used at the same time. UDP users will stay online even if they disconnect unless "LOGOUT" command is specified or other users use the same username to LOGIN. TCP users will automatically logout once they diconnected.
 
-- LOGOUT
+- **LOGOUT**
 
 Remove user from its own list, users explicitly disconnect from the server.
 
-- WHO
+- **WHO**
 
 Pull out the whole list of users in the same channel.
 
-- SEND
+- **SEND**
 
 Send text messages to a specified user.
 
-- BROADCAST
+- **BROADCAST**
 
 Send text messages to all other users in the same channel.
 
-- SHARE
+- **SHARE**
 
 Send files to a specified user, supports all regular files
 
