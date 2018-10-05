@@ -378,6 +378,7 @@ int main(int argc, char* argv[])
                 sizeof(udp_client_set[k].user));
         }
       }
+// ---------------------------------   SHARE   ---------------------------------
       else if(strncmp("SHARE", buffer, 5) == 0) {
         char* error_msg = "ERROR SHARE not supported over UDP\n";
         sendto(udp_sock, error_msg, strlen(error_msg), 0, (struct sockaddr*)&client, len);
