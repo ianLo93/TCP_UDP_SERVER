@@ -44,30 +44,30 @@ Clients can get access to the server by specifying the IP address and port numbe
 
 ## Client commands
 
-Login: 
+**Login:** 
 ```
 LOGIN <userid>
 ```
 
 Replace <userid> with your username.
 
-Send:
+**Send:**
 ```
 SEND <recipient-userid> <msglen> <message>
 ```
 
 <recipient-userid> is the target user you want to send message to, <msglen> to specify message length, replace <message> with your sending text message.
  
-Broadcast:
+**Broadcast:**
 ```
 BROADCAST <msglen> <message>
 ```
 
 Specify message length in <msglen>, add space and the sending messages.
  
-Share:
+**Share:**
 ```
 SHARE <recipient-userid> <filelen>
 ```
 
-Add target user to <recipient-userid> and specify the file length. Note: SHARE command does not support UDP users
+Add target user to <recipient-userid> and specify the file length, after receiving "OK" message, the client can start to send file. Note: SHARE command does not support UDP users
