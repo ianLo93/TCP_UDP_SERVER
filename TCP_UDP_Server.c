@@ -1,5 +1,4 @@
 /*
-Filename: hw4.c
 The program builds an server for comunication between clients
 Support functionalities of LOGIN, LOGOUT, WHO, SEND, BROADCAST, SHARE on UDP or TCP
 Support all regular files transmission
